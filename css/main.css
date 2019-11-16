@@ -1,0 +1,29 @@
+@import "header.css";
+@import "footer.css";
+@import "body.css";
+
+.cont {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 300px, 300px, 300px;
+}
+
+@media (min-width: 600px) {
+  .cont {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px, 300px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .cont {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px;
+  }
+}
+.face {
+  width: 100px;
+  height: auto;
+}

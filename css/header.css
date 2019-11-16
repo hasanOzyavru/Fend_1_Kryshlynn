@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navlist {
+  text-decoration: none;
+  color: red;
+  padding: 20px;
+}

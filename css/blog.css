@@ -1,0 +1,65 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 350px;
+}
+
+.sect1 {
+  background-color: red;
+}
+.sect2 {
+  background-color: green;
+}
+.sect3 {
+  background-color: blue;
+}
+.sect4 {
+  background-color: yellow;
+}
+.sect5 {
+  background-color: brown;
+}
+.sect6 {
+  background-color: aquamarine;
+}
+.sect7 {
+  background-color: gray;
+}
+.sect8 {
+  background-color: indigo;
+}
+
+#anothercon {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 250px;
+  grid-template-areas:
+    "h h h h h h"
+    "m m m . s s"
+    ". . f f . .";
+}
+.div1 {
+  grid-area: h;
+  color: red;
+}
+.div2 {
+  grid-area: m;
+  color: green;
+}
+.div3 {
+  grid-area: s;
+  color: blue;
+}
+.div4 {
+  grid-area: f;
+  color: indigo;
+}
+.sect2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
